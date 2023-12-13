@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="dist/css/style.css">
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
@@ -16,12 +18,29 @@
 </head>
 <body>
   <header>
-    <nav>
+    <div>
+      <img src="images/logo.svg" alt="logo" id="logo">
+    </div>
+    <!-- <nav>
       <div>
-        <img src="images/logo.svg" alt="logo" id="logo">
         <ul>
-          <li>Features</li>
-          <li>Company</li>
+          <li>
+            Features
+            <ul class="nodi">
+              <li><img src="images/icon-todo.svg" alt="to-do">Todo List</li>
+              <li><img src="images/icon-calendar.svg" alt="calendar">Calendar</li>
+              <li><img src="images/icon-reminders.svg" alt="reminder">Reminders</li>
+              <li><img src="images/icon-planning.svg" alt="plan">Planning</li>
+            </ul>
+          </li>
+          <li>
+            Company
+            <ul class="nodi">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </li>
           <li>Careers</li>
           <li>About</li>
         </ul>
@@ -29,13 +48,50 @@
       <div>
         <button>Login</button>
         <button>Register</button>
+      </div> 
+    </nav> -->
+
+    <!-- MOBILE MENU -->
+    <div>
+      <img src="images/icon-menu.svg" alt="menu-icon" id="menu-icon">
+    </div>
+    <!-- <div>
+      <div>
+        <ul>
+          <li>
+            Features
+            <ul>
+              <li><img src="images/icon-todo.svg" alt="to-do">Todo List</li>
+              <li><img src="images/icon-calendar.svg" alt="calendar">Calendar</li>
+              <li><img src="images/icon-reminders.svg" alt="reminder">Reminders</li>
+              <li><img src="images/icon-planning.svg" alt="plan">Planning</li>
+            </ul>
+          </li>
+          <li>
+            Company
+            <ul>
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
       </div>
-    </nav>
+      <div>
+        <img src="images/icon-menu.svg" alt="menu-icon" id="menu-icon">
+      </div>
+      <div>
+        <button>Login</button>
+        <button>Register</button>
+      </div>
+    </div> -->
   </header>
 
-  <main>
+  <!-- <main>
     <div>
-      <img src="images/image-hero-mobile.png" alt="intro-image" id="main-image">
+      <img src="images/image-hero-mobile.png" alt="intro-image" id="mobile-image">
         <h1>
           Make remote work
         </h1>
@@ -54,10 +110,14 @@
     <img src="images/client-meet.svg" alt="meet">
     <img src="images/client-maker.svg" alt="maker">
   </footer>
+
+  <div>
+    <img src="images/image-hero-desktop.png" alt="intro-image" id="desktop-image">
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="#">Catherine Kemigabo</a>.
+  </div> -->
 </body>
 </html>
