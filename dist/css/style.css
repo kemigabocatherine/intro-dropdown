@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Outfit:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 2px solid red;
+}/*# sourceMappingURL=style.css.map */
